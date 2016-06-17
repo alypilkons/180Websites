@@ -1,0 +1,43 @@
+body {
+    background-color: #EDEFF0;
+}
+
+div {
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+#scroll {
+    font-family: monospace;
+    font-size: 18px;
+    color: gainsboro;
+    margin-bottom: 200px;
+    margin-bottom: 800px;
+}
+
+#part1 {
+    margin-top: 300px;
+    position: fixed;
+    overflow: auto;
+    width: 700px;
+    line-height: 70px;
+}
+
+#part2 {
+    position: absolute;
+    top: 200px;
+    height: 1500px;
+    width: 700px;
+    line-height: 70px;
+}
+
+#artist {
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 18px;
+    color: gainsboro;
+    height: 2000px;
+    width: 700px;
+    text-align: right;
+    line-height: 20px;
+}
