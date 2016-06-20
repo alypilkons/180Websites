@@ -1,0 +1,37 @@
+body {
+    background-color: #ff4d4d;
+}
+
+#poetryContainer {
+    position: fixed;
+    bottom: 0;
+    width: 800px;
+    height: 300px;
+}
+
+.ui-widget-content {
+    position: absolute;
+    height: 30px;
+    width: 55px;
+    border: 1.5px solid black;
+    text-align: center;
+    background-color: white;
+    line-height: 30px;
+    box-shadow: 1px 1px 0 #393939, 2px 2px 2px rgba(0,0,0,0.5); 
+}
+
+.very-short {
+    width: 30px;
+}
+
+.short {
+    width: 40px;
+}
+
+.long {
+    width: 70px;
+}
+
+div:hover {
+    cursor: pointer;
+}
