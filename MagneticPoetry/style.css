@@ -32,6 +32,6 @@ body {
     width: 70px;
 }
 
-div:hover {
+.ui-widget-content:hover {
     cursor: pointer;
 }
